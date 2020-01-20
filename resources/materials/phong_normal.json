@@ -1,0 +1,10 @@
+{
+  "shader": "static_normal",
+  "texture":
+  {
+    "0": "wood",
+    "1": "wood_normal"
+  },
+  "specular_intensity": "0.25",
+  "specular_shine": "32"
+}

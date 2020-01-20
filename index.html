@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>WebGL Rendering</title>
+
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+    <script src="./GLEngine/core/OBJLoader.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="index.js" type="module"></script>
+  </head>
+
+  <body>
+  <canvas class="webgl-engine"></canvas>
+    <div id="fps">%f/s</div>
+    <div class="performance">Memory Usage: %used / %total</div>
+    <img id="wood" src="./resources/textures/wood.jpg" style="visibility: hidden;">
+    <img id="wood_normal" src="./resources/textures/wood_normal.jpg" style="visibility: hidden;">
+  </body>
+</html>
